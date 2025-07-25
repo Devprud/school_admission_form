@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+body{
+    background-color: #ffe5b4;
+    margin: 0px;
+    font-family: 'Space Mono', monospace;
+    padding-bottom: 40px;
+}
+
+header{
+   background-color: #4b92db; 
+   padding: 5px;
+   display:grid;
+   grid-template-columns: 100px auto 130px;
+   vertical-align: middle;
+}
+
+header img{
+    padding: 20px;
+    border-radius: 15px;
+    margin-left: 10px;
+    position: relative;
+}
+nav{
+    margin: 45px 200px 10px 200px;
+}
+
+nav a {
+    padding: 10px;
+    text-decoration: underline;
+    text-underline-offset:10px;
+    font-size: 20px;
+    color:#ffe5b4;
+    margin-right: 10px;
+}
+
+nav a:hover{
+    text-decoration: none;
+    border-bottom: 3.5px solid #ffe5b4;
+    border-left: 5px solid #ffe5b4;
+    border-top: 1px solid #ffe5b4;
+    border-right: 1px solid #ffe5b4;
+    transition-duration: 200ms;
+}
+
+header button{
+    padding: 7px;
+    border: none;
+    color: #4b92db;
+    font-family: 'Space Mono', monospace;
+    font-size: 18px;
+    height:fit-content;
+    margin: 40px 30px 5px 5px;
+    background-color: #ffe5b4;
+    border-radius: 2px;
+}
+
+header button:hover{
+    background-color: #4b92db;
+    color:#ffe5b4;
+    border-bottom: 3.5px solid #ffe5b4;
+    border-left: 5px solid #ffe5b4;
+    border-top: 1px solid #ffe5b4;
+    border-right: 1px solid #ffe5b4;
+    padding: 7px 20px 7px 7px;
+    border-radius: 2px;
+    transition-duration: 200ms;
+}
+
+.main{
+    margin-top: 25px;
+    background-color: #f4f4f4; 
+    margin: auto;
+    width: 80%; 
+}
+main{
+text-align: left;
+background-color: #f4f4f4; 
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.bracket{
+    margin-top: 25px;
+    margin: auto;
+    width: 80%; 
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+    padding: 5px 30px 5px 30px;
+}
+
+h1{
+    text-align: center;
+}
+tr{
+    padding: 5px;
+}
+td{
+    padding: 5px;
+}
+label, input, select{
+    padding: 5px;
+    font-family: 'Space Mono', monospace;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+textarea{
+    resize: vertical;
+    font-family: 'Space Mono', monospace;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    height: 70px;
+    width: 235px
+}
+
+.submit{
+    padding: 7px;
+    border: none;
+    color: #ffe5b4;
+    font-family: 'Space Mono', monospace;
+    font-size: 18px;
+    height:fit-content;
+    margin: 40px 30px 5px 5px;
+    background-color: #4b92db;
+    border-radius: 2px;
+    width: 300px;
+}
+.submit:hover{
+    background-color: #ffe5b4;
+    color:#4b92db;
+    border-bottom: 3.5px solid #4b92db;
+    border-left: 5px solid #4b92db;
+    border-top: 1px solid #4b92db;
+    border-right: 1px solid #4b92db;
+    padding: 7px 20px 7px 7px;
+    border-radius: 2px;
+    transition-duration: 200ms;
+}

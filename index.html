@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Admission Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="emoji.ico">
+</head>
+
+<body>
+    <header>
+        <img src="logo.png" height="80px">
+        <center>
+            <nav>
+                <a href="">Academics</a>
+                <a href="">Media</a>
+                <a href="">Calendar</a>
+                <a href="">Campus</a>
+            </nav>
+        </center>
+        <button type="button">Contact</button>
+    </header>
+    <main style="border-left: 5px solid #4b92db;" class="main">
+        <h1>School Admission Form</h1>
+    </main>
+    <div class="bracket">
+        <main style="width: max-content; border-left: 5px solid #4b92db;">
+            <center>
+                <h4>Student Details</h4>
+            </center>
+            <hr width="100%">
+            <form>
+                <table>
+                    <tr>
+                        <td><label for="name">Name:</label></td>
+                        <td><input id="name" type="textbox"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="dob">Birth Date:</label></td>
+                        <td><input id="dob" type="date"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="class">Class Opting:</label></td>
+                        <td>
+                            <select id="class">
+                                <option>--Select--</option>
+                                <option>Nursery</option>
+                                <option>LKG</option>
+                                <option>UKG</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                                <option>11</option>
+                                <option>12</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="2lang">2<sup>nd</sup> Language:</label></td>
+                        <td>
+                            <select id="2lang">
+                                <option>--Select--</option>
+                                <option>Hindi</option>
+                                <option>Telugu</option>
+                                <option>Gujarati</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="3rdlang">3<sup>rd</sup> Language:</label></td>
+                        <td>
+                            <select id="3rdlang">
+                                <option>--Select--</option>
+                                <option>Hindi</option>
+                                <option>Telugu</option>
+                                <option>Gujarati</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="sport">Sport:</label></td>
+                        <td>
+                            <ul type="none">
+                                <li><input type="radio" id="sport" name="sport" value="Lawn Tennis">Lawn Tennis</li>
+                                <li><input type="radio" id="sport" name="sport" value="Cricket">Cricket</li>
+                                <li><input type="radio" id="sport" name="sport" value="Football">Football</li>
+                                <li><input type="radio" id="sport" name="sport" value="Basketball">Basket ball</li>
+                                <li><input type="radio" id="sport" name="sport" value="Chess">Chess</li>
+                                <li><input type="radio" id="sport" name="sport" value="Swimming">Swimming</li>
+                                <li><input type="radio" id="sport" name="sport" value="Taekwondo">Taekwondo</li>
+                                <li><input type="radio" id="sport" name="sport" value="Judo">Judo</li>
+                                <li><input type="radio" id="sport" name="sport" value="TT">Table Tennis</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </main>
+        <main style="width: max-content; border-left: 5px solid #4b92db;">
+            <center>
+                <h4>Parent Details</h4>
+            </center>
+            <hr width="100%">
+            <form>
+                <table>
+                    <tr>
+                        <td><label for="name">Father's Name:</label></td>
+                        <td><input id="name" type="textbox"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="age">Mother's Name: </label></td>
+                        <td><input type="textbox"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="phone">Phone Number:</label></td>
+                        <td>
+                            <input type="number" size="10" id="phone" maxlength="10">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="e-mail">E-mail:</label></td>
+                        <td><input id="e-mail" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="address">Address:</label></td>
+                        <td><textarea id="address" cols="27"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label for="occu">Occupation🧔‍♂️:</label></td>
+                        <td><input id="occu" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="occu2">Occupation👩:</label></td>
+                        <td><input id="occu2" type="text"></td>
+                    </tr>
+                </table>
+
+                <center>
+                    <p style="margin: 35px 15px 5px 15px;">Please read our <a
+                            style="color:#4b92db; text-decoration: underline; cursor: pointer;">Guidelines</a> before
+                        continuing.</p>
+                </center>
+            </form>
+        </main>
+    </div>
+    <center><button type="submit" class="submit">Submit</button></center>
+</body>
+
+</html>
